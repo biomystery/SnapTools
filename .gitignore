@@ -1,3 +1,4 @@
 test/*
 snaptools_test/*
 dist/*
+*.pyc

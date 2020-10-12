@@ -146,7 +146,7 @@ def snap_pre(input_file,
     verbose: 
             a boolen variable indicates whether to output the progress [True];
     """
-    
+    barcode = ""    
     if not os.path.exists(input_file):
         print(('error: ' + input_file + ' does not exist!'));
         sys.exit(1);
